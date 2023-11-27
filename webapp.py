@@ -9,18 +9,17 @@ from sklearn.model_selection import train_test_split
 #from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precision_recall_curve
 from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score
 
-
+@st.cache_data(persist=True)  # Use st.cache_data instead of st.cache
 def plot_confusion_matrix(model, x_test, y_test, display_labels):
     pass
 
-
+@st.cache_data(persist=True)  # Use st.cache_data instead of st.cache
 def plot_roc_curve(model, x_test, y_test):
     pass
 
-
+@st.cache_data(persist=True)  # Use st.cache_data instead of st.cache
 def plot_precision_recall_curve(model, x_test, y_test):
     pass
-
 
 def main():
     st.title("Binary Classification Web Application")
