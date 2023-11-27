@@ -152,7 +152,7 @@ def main():
         st.write(df)
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+ #   main()
 
 
